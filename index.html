@@ -7,82 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo HTML</title>
     <script src="https://kit.fontawesome.com/ce195c91fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
-  
-    p {
-        font-family: 'Courier New', Courier, monospace, sans-serif;
-        text-align: center;
-        font-style: italic;
-        line-height: 40px;
-        color: #ffb703;
-        font-size: 25px; 
-          
-    }
-   
-    h1 {
-        font-family: 'Courier New', Courier, monospace, sans-serif;
-        text-align: center;
-        font-style: italic;
-        line-height: 30px;
-        color: #ffb703;
-        font: bolder;
-    }
 
-    .displayed {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50%;
-        border-top: 5px solid #023047;
-        border-right: 5px solid  #023047;
-        border-bottom: 5px solid  #023047;
-        border-left: 5px solid  #023047;
-              
-    }
-   .fab {
-        
-        
-   }
-    body {
-      background-color: #219ebc;
-    }
+
+
 </style>
 
 <body>
+    <div class="topo">
     <h1>Eliabe Aquino<br>Desenvolvedor Full Stack</h1>
+    </div>
+    <br>
+    <br>
+    
+    <div>
+    <img class="displayed" id="perfil" src="perfil.png" width="200" alt="minha foto de perfil">
+    <p><strong>Ola! Sou natural de Fortaleza-CE,<br>apaixonado pela programação e sonho em desenvolver<br>aplicações
+            inclusivas<strong><br>
     <a href="https://github.com/Eliabe-Aquino" target="_blanck"><i class="fab fa-github-square fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/eliabe-aquino-a140aa221/" target="_blanck"><i class="fab fa-linkedin fa-3x"></i></a>
+    <a href="https://www.linkedin.com/in/eliabe-aquino-a140aa221/" target="_blanck"><i
+            class="fab fa-linkedin fa-3x"></i></a></p>
+        </div>
     <br>
-    <br>
-    <img class="displayed" id="perfil2" src="perfil.png" width="300" alt="minha foto de perfil">
-    <p><strong>Ola! Sou natural de Fortaleza-CE,<br>apaixonado pela programação e sonho em desenvolver<br>aplicações inclusivas<strong></p>
     <br>
     <br>
     <br>
 
-    <h3 id="habil">Lista de Habilidades</h3>
+    <h3 id="habil">Habilidades</h3>
     <al>
-        <li><strong>Pesquisa</strong></li>
+        <li><strong>Determinação</strong></li>
         <li>Dinamismo</li>
-        <li>Determinação</li>
         <li>Comunicação</li>
-        <li>Assertividade</li>
+
     </al><br>
 
-    <a href="#perfil2">Foto Perfil</a>
     <h3 id="Recom">Recomendações</h3>
-    <a href="https://www.youtube.com/channel/UCZeN5eLUwiIyMaQjKR_ydVg" target="_blanck">Canal-Trybe</a>
     <br>
+    <br>
+    <a href="https://www.belpesce.com.br/" target="_blanck">Bel Pesce - A Menina do Vale</a>
+    <br>
+    <br>
+    <h3 class="links">Links</h3>
+    <nav id="menu">
+        <ul>
+            <li><a href="#perfil"><strong>Perfil</strong></li>
+            <li><a href="#habil"><strong>Habilidades</strong></li>
+            <li><a href="#Recom"><strong>Recomendações</strong></li>
+            
+        </ul>
+    </nav>
 
-    <h3 id="Links">Links</h3>
-    <ol>
-        <li><a href="#perfil"><strong>Perfil</strong></li>
-        <li><a href="#habil"><strong>Habilidades</strong></li>
-        <li><a href="#Recom"><strong>Recomendações</strong></li>
-        <li><a href="#Links"><strong>Links</strong></a></li>
 
-    </ol>
 
 
 
