@@ -6,39 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo HTML</title>
+    <script src="https://kit.fontawesome.com/ce195c91fa.js" crossorigin="anonymous"></script>
 </head>
-    <style>
+<style>
+  
+    p {
+        font-family: 'Courier New', Courier, monospace, sans-serif;
+        text-align: center;
+        font-style: italic;
+        line-height: 40px;
+        color: #ffb703;
+        font-size: 25px; 
+          
+    }
+   
+    h1 {
+        font-family: 'Courier New', Courier, monospace, sans-serif;
+        text-align: center;
+        font-style: italic;
+        line-height: 30px;
+        color: #ffb703;
+        font: bolder;
+    }
 
-        h1 {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-            font-style: italic;
-            line-height: 30px;
-        }
-        img {
-    	  
-        }
-        body {
-            background-image: url(fundo.png);
-            background-attachment: scroll;
-            background-size: cover;
-            
-            
-            
-    
-            }
+    .displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border-top: 5px solid #023047;
+        border-right: 5px solid  #023047;
+        border-bottom: 5px solid  #023047;
+        border-left: 5px solid  #023047;
+              
+    }
+   .fab {
+        
+        
+   }
+    body {
+      background-color: #219ebc;
+    }
+</style>
 
-    </style>
 <body>
     <h1>Eliabe Aquino<br>Desenvolvedor Full Stack</h1>
-    <h2 id="perfil">Perfil</h2>
-    <a href="https://www.linkedin.com/in/eliabe-aquino-a140aa221/" target="_blanck">Eliabe Silva Tavares de Aquino</a>
+    <a href="https://github.com/Eliabe-Aquino" target="_blanck"><i class="fab fa-github-square fa-3x"></i></a>
+    <a href="https://www.linkedin.com/in/eliabe-aquino-a140aa221/" target="_blanck"><i class="fab fa-linkedin fa-3x"></i></a>
     <br>
     <br>
-    <img id="perfil2" src="perfil.png" alt="minha foto de perfil">
-    <p><strong>Ola! Me chamo Eliabe, sou nordestino com orgulho.<br>
-            Nacionalidade: Brasileira <br>
-            Natural: Fortaleza-CE</strong></p>
+    <img class="displayed" id="perfil2" src="perfil.png" width="300" alt="minha foto de perfil">
+    <p><strong>Ola! Sou natural de Fortaleza-CE,<br>apaixonado pela programação e sonho em desenvolver<br>aplicações inclusivas<strong></p>
     <br>
     <br>
     <br>
@@ -62,10 +80,9 @@
         <li><a href="#perfil"><strong>Perfil</strong></li>
         <li><a href="#habil"><strong>Habilidades</strong></li>
         <li><a href="#Recom"><strong>Recomendações</strong></li>
-        <li><a href="#Links"><strong>Links</strong></li>
+        <li><a href="#Links"><strong>Links</strong></a></li>
 
     </ol>
-
 
 
 
