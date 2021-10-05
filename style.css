@@ -22,13 +22,12 @@ body {
   }
   p {
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    text-align: center;
     font-style: italic;
     line-height: 45px;
     color: #ffb703;
     font-size: 20px; 
     background-color: #023047;
-   
+    text-align:center;
       
 }
 h1, h3 {
